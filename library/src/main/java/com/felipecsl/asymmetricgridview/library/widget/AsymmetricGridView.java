@@ -32,7 +32,7 @@ public class AsymmetricGridView<T extends AsymmetricItem> extends ListView {
     public AsymmetricGridView(final Context context, final AttributeSet attrs) {
         super(context, attrs);
 
-        defaultPadding = Utils.dpToPx(context, 5);
+        defaultPadding = Utils.dpToPx(context, 0);
         requestedHorizontalSpacing = defaultPadding;
         requestedVerticalSpacing = defaultPadding;
         padding = new Rect(defaultPadding, defaultPadding, defaultPadding, defaultPadding);
